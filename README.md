@@ -46,6 +46,10 @@ Comece pelos portais oficiais das instituições relevantes para seu perfil. Par
 
 ## Como funciona o agendamento
 
+- [Ferramentas gratuitas e instalação do crawler](robo-de-editais-com-ia/references/coleta.md)
+- [Proposta de frontend para o radar](docs/frontend.md)
+- [Episódio completo no YouTube](https://www.youtube.com/watch?v=Dtemk5WA4nE)
+
 A skill é um guia para o agente. Para executar buscas e entregar avisos fora do chat, o ambiente precisa ter agendamento, acesso às fontes, histórico persistente e um canal de envio configurado. Comece no modo manual e confirme a primeira execução real no canal escolhido.
 
 ## Contribua com casos de teste

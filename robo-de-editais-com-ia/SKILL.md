@@ -45,3 +45,7 @@ Em execução real, mantenha um registro persistente por perfil, canal, chamada 
 Teste uma chamada elegível, uma que dependa de parceria e uma vencida. Repita a primeira e simule uma retificação com mudança de prazo. O esperado é um alerta inicial, zero alertas na repetição e uma atualização identificada para a retificação. Confira que o link abre e que prazo e requisito batem com o documento.
 
 Confirme fontes, frequência, fuso e canal com a pessoa. Use apenas capacidades disponíveis e autorizadas. Mostre a próxima execução confirmada ou entregue uma consulta manual reutilizável. Se o ambiente não tiver histórico persistente, agendamento ou envio real, identifique o teste como simulação e informe o que falta ativar.
+
+## 6. Se precisar implementar um coletor
+
+Leia [o guia de coleta](references/coleta.md) para escolher a ferramenta por fonte. Comece por API ou RSS oficial, use Scrapy para HTML estático e reserve Playwright para listagens que realmente dependem de JavaScript. Teste um conector por vez com amostras conhecidas, incluindo uma retificação, antes de rodar a coleta recorrente.
